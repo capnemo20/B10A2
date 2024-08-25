@@ -1,0 +1,21 @@
+@media screen and (max-width: 576px) {
+  #hamburger {
+    display: block;
+    color: white;
+  }
+
+  .nav-links {
+    display: none;
+  }
+
+  .banner-section {
+    display: flex;
+    flex-direction: column;
+  }
+  .healthy-pic > img {
+    height: 400px;
+  }
+  .number-card-2 {
+    margin-left: -100px;
+  }
+}
