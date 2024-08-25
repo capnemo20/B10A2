@@ -18,4 +18,9 @@
   .number-card-2 {
     margin-left: -100px;
   }
+  /* change habit */
+  .habit-types{
+    display: flex;
+    flex-direction: column;
+  }
 }

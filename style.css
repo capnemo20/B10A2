@@ -179,6 +179,25 @@ nav{
 .change-habit-section>h2{
     color: white;    
 }
+.habit-types{
+    display: flex;
+    gap: 100px;
+}
+.habit-types>div>img{
+    border-radius: 50%;
+}
+.habit-types>div>h4{
+    color: white;
+}
+.shared{
+    height: 400px;
+    width: 250px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
 /* change habit section ends*/
 
