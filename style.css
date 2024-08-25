@@ -1,18 +1,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Qwitcher+Grypen:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Qwitcher+Grypen:wght@400;700&display=swap");
 .qwitcher-grypen-regular {
-    font-family: "Qwitcher Grypen", cursive;
-    font-weight: 600;
-    font-size: 60px;
-    font-style: normal;
-  }
-  
-  /* .qwitcher-grypen-bold {
+  font-family: "Qwitcher Grypen", cursive;
+  font-weight: 600;
+  font-size: 60px;
+  font-style: normal;
+}
+
+/* .qwitcher-grypen-bold {
     font-family: "Qwitcher Grypen", cursive;
     font-weight: 700;
     font-style: normal;
   } */
-  
 
 .work-sans-font {
   font-family: "Work Sans", sans-serif;
@@ -20,23 +19,40 @@
   font-weight: 400;
   font-style: normal;
 }
-*{
-    background-color: black;
-    
+* {
+  background-color: black;
 }
 
 /* shared styles */
 .display-flex {
   display: flex;
 }
-.text-light-gray{
-    color: rgba(255, 255, 255, 0.4); 
+.text-light-gray {
+  color: rgba(255, 255, 255, 0.4);
+}
+.shared {
+  height: 400px;
+  width: 250px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.shared-btn {
+  color: white;
+  background-color: rgba(230, 83, 60, 1);
+  height: 50px;
+  width: 150px;
+  font-size: 15px;
+  font-weight: 700;
+  border-radius: 30px;
 }
 
 /* shared styles */
 
-nav{
-    background-color: black;
+nav {
+  background-color: black;
 }
 /* header part style */
 .fitness {
@@ -45,7 +61,7 @@ nav{
 .home {
   color: white;
   background-color: rgba(230, 83, 60, 1);
- 
+
   border-radius: 5px;
 }
 .navbar {
@@ -54,71 +70,66 @@ nav{
 .nav-link {
   text-decoration: none;
   color: white;
-
 }
-.fitness{
-    font-style: italic;
-    font-weight: 700;
-    font-size: 30px;
+.fitness {
+  font-style: italic;
+  font-weight: 700;
+  font-size: 30px;
 }
 .nav-item {
   list-style: none;
   justify-content: space-between;
   margin-right: 30px;
-  
 }
-.hamburger{
-    display: none;
+.hamburger {
+  display: none;
 }
 
 /* header part style end */
 
 /* banner style */
-.banner-section{
-    color: white;
-    margin-top: 20px;
-    display: flex;
-    justify-content: space-between;
-    /* background: linear-gradient(to right, rgba(17, 17, 17,1), rgba(119, 119, 119,1)); */
-    /* background-image: url("./images/Images 2.png");
+.banner-section {
+  color: white;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  /* background: linear-gradient(to right, rgba(17, 17, 17,1), rgba(119, 119, 119,1)); */
+  /* background-image: url("./images/Images 2.png");
     background-repeat: no-repeat; */
-    
 }
-.join-club-now{
-  background-color: rgba(230, 83, 60, .9);
-  
+.join-club-now {
+  background-color: rgba(230, 83, 60, 0.9);
 }
-.download-app{
-    border: 2px solid white;
-    background-color: black;
+.download-app {
+  border: 2px solid white;
+  background-color: black;
 }
-.btn{
-    color: white;
-    height: 50px;
-    width: 150px;
-    font-size: 15px;
-    font-weight: 700;
-    border-radius: 30px;
+.btn {
+  color: white;
+  height: 50px;
+  width: 150px;
+  font-size: 15px;
+  font-weight: 700;
+  border-radius: 30px;
 }
 
-.healthy-pic>img {
-    margin-right: 400px;
-    /* background: linear-gradient(to right, rgba(17, 17, 17,1), rgba(119, 119, 119,1)); */
+.healthy-pic > img {
+  margin-right: 400px;
+  /* background: linear-gradient(to right, rgba(17, 17, 17,1), rgba(119, 119, 119,1)); */
 }
-.stay-healthy-h2{
-    font-size: 70px;
-    font-weight: 700;
+.stay-healthy-h2 {
+  font-size: 70px;
+  font-weight: 700;
 }
-.stay-healthy-p{
-    
-    font-size: 20px;
-    font-weight: 400;
+.stay-healthy-p {
+  font-size: 20px;
+  font-weight: 400;
 }
-.ball{
-    height: 50px;
-    width: 50px;
-    background-color: red;
-    border-radius: 50%;
+.ball {
+  height: 50px;
+  width: 50px;
+  background-color: red;
+  border-radius: 50%;
 }
 /* .video{
     width: 0;
@@ -129,77 +140,86 @@ nav{
     padding-left: 20px;
     padding-top: -15px;
 } */
-.banner-card-shared
+.banner-card-shared {
+  border: 1px solid rgb(244, 234, 234);
+  background-color: rgba(255, 255, 255, 0.1);
 
-{
-    border: 1px solid rgb(244, 234, 234);
-    background-color: rgba(255, 255, 255, 0.1);
-    
-    width: 250px;
+  width: 250px;
 }
-.number-card-1{
-    height: 120px;
-    padding: 10px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-left: 100px;
-    margin-top: -400px;
+.number-card-1 {
+  height: 120px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 100px;
+  margin-top: -400px;
 }
-.number-card-1 h2{
-    font-size: 35px;
+.number-card-1 h2 {
+  font-size: 35px;
 }
-.number-card-2{
-    height: 200px;
-    display: flex;
-    flex-direction: row-reverse;
-    padding: 10px;
-    gap: 25px;
-    margin-left: -300px;
-    margin-top: -50px;
+.number-card-2 {
+  height: 200px;
+  display: flex;
+  flex-direction: row-reverse;
+  padding: 10px;
+  gap: 25px;
+  margin-left: -300px;
+  margin-top: -50px;
 }
-.number-card-2 h2{
-    font-size: 35px;
-    
+.number-card-2 h2 {
+  font-size: 35px;
 }
- 
-
 
 /* banner style end*/
 
 /* change habit section */
-.change-habit-section{
-    margin-top: 100px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.change-habit-section {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-.change-habit-section>h2{
-    color: white;    
+.change-habit-section > h2 {
+  color: white;
 }
-.habit-types{
-    display: flex;
-    gap: 100px;
+.habit-types {
+  display: flex;
+  gap: 100px;
 }
-.habit-types>div>img{
-    border-radius: 50%;
+.habit-types > div > img {
+  border-radius: 50%;
 }
-.habit-types>div>h4{
-    color: white;
-}
-.shared{
-    height: 400px;
-    width: 250px;
-    
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.habit-types > div > h4 {
+  color: white;
 }
 
 /* change habit section ends*/
 
+/* join now */
+.run {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+  padding: 50px;
+}
+.join-now-run {
+  background-color: rgba(230, 83, 60, 1);
+}
+.run-description > h2 {
+  color: white;
+  font-size: 40px;
+}
+.run-description > p {
+  font-size: 18px;
+}
+.run-pic > img {
+  /* height: 500px;
+  width: auto;
+  border-radius: 10px; */
+  width: 100%;
+}
 
-
+/* join now ends */
