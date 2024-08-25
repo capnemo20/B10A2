@@ -1,3 +1,116 @@
-h1 {
-    background-color: antiquewhite;
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Qwitcher+Grypen:wght@400;700&display=swap');
+.qwitcher-grypen-regular {
+    font-family: "Qwitcher Grypen", cursive;
+    font-weight: 600;
+    font-size: 60px;
+    font-style: normal;
+  }
+  
+  /* .qwitcher-grypen-bold {
+    font-family: "Qwitcher Grypen", cursive;
+    font-weight: 700;
+    font-style: normal;
+  } */
+  
+
+.work-sans-font {
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
 }
+*{
+    background-color: black;
+    
+}
+
+/* shared styles */
+.display-flex {
+  display: flex;
+}
+.text-light-gray{
+    color: rgba(255, 255, 255, 0.4); 
+}
+
+/* shared styles */
+
+nav{
+    background-color: black;
+}
+/* header part style */
+.fitness {
+  color: rgba(230, 83, 60, 1);
+}
+.home {
+  color: white;
+  background-color: rgba(230, 83, 60, 1);
+ 
+  border-radius: 5px;
+}
+.navbar {
+  justify-content: space-between;
+}
+.nav-link {
+  text-decoration: none;
+  color: white;
+
+}
+.fitness{
+    font-style: italic;
+    font-weight: 700;
+    font-size: 30px;
+}
+.nav-item {
+  list-style: none;
+  justify-content: space-between;
+  margin-right: 30px;
+  
+}
+
+/* header part style end */
+
+/* banner style */
+.banner-section{
+    color: white;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    /* background: linear-gradient(to right, rgba(17, 17, 17,1), rgba(119, 119, 119,1)); */
+    /* background-image: url("./images/Images 2.png");
+    background-repeat: no-repeat; */
+    
+}
+.join-club-now{
+  background-color: rgba(230, 83, 60, .9);
+  
+}
+.download-app{
+    border: 2px solid white;
+    background-color: black;
+}
+.btn{
+    color: white;
+    height: 50px;
+    width: 150px;
+    font-size: 15px;
+    font-weight: 700;
+    border-radius: 30px;
+}
+
+.healthy-pic>img {
+    margin-right: 200px;
+    /* background: linear-gradient(to right, rgba(17, 17, 17,1), rgba(119, 119, 119,1)); */
+}
+.stay-healthy-h2{
+    font-size: 70px;
+    font-weight: 700;
+}
+.stay-healthy-p{
+    
+    font-size: 20px;
+    font-weight: 400;
+}
+
+
+/* banner style end*/
