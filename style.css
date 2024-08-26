@@ -248,3 +248,28 @@ nav {
   margin-top: -100px;
 }
 
+/* footer */
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.fitness-1{
+    color: rgba(230, 83, 60, 1);
+    font-size: 50px;
+    font-weight: 700;
+    font-style: italic;
+}
+footer>div>h3{
+    color: white;
+}
+footer>div>ul>li{
+    color: rgba(255, 255, 255, 0.4);
+    list-style: none;
+}
+.hr-1{
+    border: 1px solid rgba(255, 255, 255, 0.4); 
+}
+.all-rights{
+    text-align: center;
+}
