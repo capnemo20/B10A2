@@ -33,4 +33,8 @@
     height: 300px;
     width: 300px;
   }
+  .meet-team-pics{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+  }
 }

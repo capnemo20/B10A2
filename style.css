@@ -222,4 +222,29 @@ nav {
   width: 100%;
 }
 
-/* join now ends */
+/* meet our team */
+.meet-our-team {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.meet-team-description > h2 {
+  color: white;
+  font-size: 50px;
+}
+.meet-team-pics {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+}
+.meet-team-pics > div > img {
+  height: 300px;
+  width: 300px;
+  border-radius: 20%;
+}
+.team-img > h2 {
+  color: white;
+  margin-top: -100px;
+}
+
